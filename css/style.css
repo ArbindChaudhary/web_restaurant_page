@@ -197,6 +197,7 @@ input[type="text"]
   height: 50px;
   border: none;
   padding: 25px;
+  margin-left: 50px;
 
 }
 input[type="submit"]{
@@ -278,11 +279,11 @@ input[type="submit"]{
 }
 
 #Rightsliderbox{
- position: absolute;
+/* position: absolute;
   width: 900px;
   top: 80%;
  left: 50%;
- transform: translate(-40%, -50%);
+ transform: translate(-40%, -50%);*/
   animation-duration: 10s;
   
   
@@ -290,11 +291,13 @@ input[type="submit"]{
 }
 
 #Rightsliderbox img{
-  float: right;
+  /*float: right;
   height: 90px;
   width: 90px;
  
-  margin-right: 8px;
+  margin-right: 8px;*/
+      width: 100%;
+    height: auto;
  
 }
 
@@ -302,7 +305,7 @@ input[type="submit"]{
 /* advertisement section*/
 
 .advertisement_section{
-  position: relative;
+  /*position: relative;*/
  
   padding: 500px 0;
   
