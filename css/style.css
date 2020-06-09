@@ -274,9 +274,6 @@ input[type="submit"]{
 
 }
 
-#Rightbox{
-
-}
 
 #Rightsliderbox{
 /* position: absolute;
@@ -304,7 +301,7 @@ input[type="submit"]{
 
 /* advertisement section*/
 
-.advertisement_section{
+.advertisement_section{                    
   /*position: relative;*/
  
   padding: 500px 0;
@@ -355,3 +352,296 @@ h1{
 .image_wrapper-text p{
   line-height: 30px;
 }
+
+
+.popular_text{
+  margin-top: 120px;
+  width: 100%;
+  text-align: center;
+ 
+
+}
+
+.popular_text h1{
+font-size: 30px;
+font-weight: 100px ;
+  color: black;
+}
+
+.popular_text p{
+  margin-top: 20px;
+  font-size: 15px;
+  color: grey;
+  letter-spacing: 6px;
+}
+
+.popular_text p .fa {
+font-size: 30px;
+
+}
+
+
+/*popular brand*/
+
+.popular_container{
+  padding: 70px 0;
+}
+
+.image_wrapper1{
+ 
+  width: 100%;
+  height: 50%;
+  position: relative;
+ 
+ 
+}
+
+.image_wrapper1 img {
+  width: 100%;
+  max-width: 100%;
+ 
+
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  background-color: rgb(240, 110, 24);
+  color:rgb(34, 32, 32);
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.top-right {
+  
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  background-color: white;
+  color: coral;
+  font-size: 20px;
+ 
+  
+  
+}
+
+
+
+.image_wrapper-text1{
+
+  height:100px;
+  
+  position: relative;
+  background-color: ivory;
+  color:black;
+  text-align: center;
+}
+
+.image_wrapper-text1 p{
+  padding: 10px 0;
+  letter-spacing: 3px;
+  color: green;
+  font-size: 15px;
+
+}
+
+.member_text{
+ 
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.member_text h1{
+  font-size: 30px;
+  font-weight: 100px ;
+    color: black;
+  }
+  
+  .member_text p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: grey;
+    letter-spacing: 6px;
+  }
+  
+  .member_text p .fa {
+  font-size: 30px;
+  
+  }
+
+  .membership{
+    padding: 10px 0;
+    padding: 150px;
+    
+  }
+  
+  .btn_dark{
+
+    display:inline-block;
+    background-color: mediumspringgreen;
+    color: ivory;
+    text-decoration: none;
+    padding:15px 40px;
+    border-radius: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+  }
+
+  .btn_dark:hover{
+    background-color: red;
+
+  }
+
+  .btn_dark .fa{
+    margin-left: 10px;
+  }
+
+  /*subscribe section*/
+
+
+ .subtext {
+ 
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+  
+ }
+
+  .redtext{
+    color: red;
+  }
+
+  .redtext:hover{
+    color: blue;
+    cursor: pointer;
+  }
+
+  .subscribe  form{
+    display: inline-flex;
+  position: absolute;;
+
+  }
+
+  
+  
+input{
+  margin-top: 20px;
+  position:relative;
+  display:inline-block;
+  
+  box-sizing: border-box;
+  
+
+}
+input[type="text1"]
+{
+ font-size: 15px;
+  width: 240px;
+  height: 25px;
+  border: none;
+  padding: 20px;
+  margin-left: 0px;
+
+}
+input[type="submit1"]{
+  font-size: 15px;
+  width: 110px;
+  height: 25px;
+  border: none;
+  background-color:red;
+  padding: 20px;
+  cursor: pointer;
+  
+ 
+}
+
+h2{
+ 
+  position: relative;
+  margin-top: 100px;
+ 
+  
+}
+
+.subtext1 {
+  font-size: 15px;
+ 
+  position: relative;
+  margin-top: 80px;
+  letter-spacing: 0px;
+  
+ 
+
+}
+.bluetext{
+  color:blue;
+}
+
+.bluetext:hover{
+  color: red;
+  cursor: pointer;
+}
+
+h3{
+  position: relative;
+  margin-top: 15px;
+  letter-spacing: 3px;
+  color: coral;
+
+}
+
+.centerdiv{
+margin-top: 10px;
+  height: 100vh;
+  display: flex;
+ 
+
+}
+b{
+  height: 70px;
+  width: 70px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  text-align: center;
+  margin:5px;
+  line-height: 80px;
+  box-shadow: 1px 4px 2px 2px #646775;
+
+}
+b i{
+  transition: all 0.3s linear;
+
+}
+b:hover i{
+  transform: scale(1.4);
+  cursor: pointer;
+  
+
+}
+
+
+.fa-facebook-official{
+   color:blue;
+ }
+  .fa-twitter-square{
+    color: cornflowerblue;
+  }
+
+  .fa-instagram{
+    color: darkcyan;
+  }
+
+
+  
+
+
+
+
+
+
+
